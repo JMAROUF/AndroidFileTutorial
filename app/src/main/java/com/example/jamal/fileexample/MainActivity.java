@@ -81,6 +81,7 @@ public class MainActivity extends AppCompatActivity  {
 
     }
 
+    // on destroy
     @Override
     protected void onDestroy() {
         super.onDestroy();
