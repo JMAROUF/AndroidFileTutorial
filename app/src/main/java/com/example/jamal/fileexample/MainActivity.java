@@ -73,8 +73,9 @@ public class MainActivity extends AppCompatActivity  {
                 e.printStackTrace();
             }
         }
+		 
     }
-
+	//TODO: onResultPermission
     public void process(View v){
         // pour tuer le process : ATTENTION ce type d'instruction est trés dangereux , alors eviter de le faire , à la place utiliser finish()
         android.os.Process.killProcess(android.os.Process.myPid());
